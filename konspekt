@@ -1,0 +1,10 @@
+tarkvararenduses on 
+entity - pohientity ja selle ...
+andmebaasi kirjeldamiseks kasutame modelid ja migratsioonid = data 
+access layers
+
+sql p2ringute asemel progejad kasutavad.
+
+Mudelit vaja, mis kirjeldab 2ra tabelid.
+
+teeme andmebaasi, modeli, migratsiooni tabelist ja CRUDi
