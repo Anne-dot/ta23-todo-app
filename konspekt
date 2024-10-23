@@ -7,4 +7,12 @@ sql p2ringute asemel progejad kasutavad.
 
 Mudelit vaja, mis kirjeldab 2ra tabelid.
 
-teeme andmebaasi, modeli, migratsiooni tabelist ja CRUDi
+teeme andmebaasi, andme modeli, migratsiooni tabelist ja CRUDi
+1. andmebaas ta23_todo_app tehtud. 
+2. Todo mudel on tehtud ja mapitud 'todos' nimega tabeli tegemiseks
+modelid on suure t2hega ja ainsuses ja tabelid on mitmuses ja v2ikese t2hega
+3. Kui teeme mudeli, siis teeme ka kohe migratsiooni
+
+
+npm on package manager millega saab pakette installida
+npx käivitab packageid ilma neid projekti installimata
