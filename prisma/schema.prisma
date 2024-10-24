@@ -19,7 +19,7 @@ model Todo {
 }
 
 enum TodoStatus {
-  Todo
-  InProgress
-  Done
+  TODO
+  IN_PROGRESS
+  DONE
 }

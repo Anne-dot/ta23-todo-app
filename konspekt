@@ -16,3 +16,6 @@ modelid on suure t2hega ja ainsuses ja tabelid on mitmuses ja v2ikese t2hega
 
 npm on package manager millega saab pakette installida
 npx käivitab packageid ilma neid projekti installimata
+
+kui muudan oma andmemudelit, siis tuleb teha migration k2suga:
+npx prisma migrate dev --name change_enum_values
