@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createTodo} from "../controller/todo.controller.js"
+import { createTodo, getAllTodos} from "../controller/todo.controller.js";
 
 const router = Router()
 
@@ -12,9 +12,10 @@ const router = Router()
  */
 
 router.post('/todos', createTodo)
+router.get('/todos', getAllTodos)
 
 /**
- * router.get('/todos', getAllTodos)
+
 
 router.get('/todos/:id', getTodo)
 
